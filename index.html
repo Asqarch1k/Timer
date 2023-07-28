@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="container">
+        <ul class="timeContainer">
+          <li>
+            <input class="hour" type="number" min="0" placeholder="00" />
+          </li>
+
+          <li>
+            <input
+              class="minut"
+              type="number"
+              min="0"
+              max="59"
+              placeholder="00"
+            />
+          </li>
+
+          <li>
+            <input
+              class="second"
+              type="number"
+              min="0"
+              max="59"
+              placeholder="00"
+            />
+          </li>
+        </ul>
+        <ul class="timer">
+          <li class="correntHour">00</li>
+          <li>:</li>
+          <li class="correntMinut">00</li>
+          <li>:</li>
+          <li class="correntSecond">00</li>
+        </ul>
+        <div class="timer-btn">
+          <button class="saveBtn">SAVE</button>
+          <button class="start">START</button>
+          <button class="restart" onclick=" window.location.reload(true)">
+            RESTART
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./style.js"></script>
+  </body>
+</html>

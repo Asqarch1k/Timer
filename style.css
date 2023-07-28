@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  margin: 0px auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  background: #0000003b;
+}
+
+.timeContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+li {
+  font-size: 90px;
+  color: #8c2e2e;
+}
+input {
+  width: 150px;
+  height: 40px;
+  font-size: 22px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.timer {
+  display: flex;
+}
+.timer-btn {
+  display: flex;
+  gap: 40px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #0f70d1;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.15s ease-out;
+  cursor: pointer;
+}
+
+.saveBtn {
+  background-color: rgb(39, 240, 217);
+}
+.saveBtn:hover {
+  background-color: rgb(102, 244, 227);
+}
+.start {
+  background-color: rgb(65, 107, 65);
+}
+.start:hover {
+  background-color: #6e6;
+}
+
+.restart {
+  background-color: rgb(47, 47, 72);
+}
+.restart:hover {
+  background-color: rgb(81, 81, 164);
+}
+
+.pause {
+  background-color: rgb(109, 69, 69);
+}
+.pause:hover {
+  background-color: rgb(156, 64, 64);
+}
+
+
+
+
+
